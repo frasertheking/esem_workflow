@@ -12,7 +12,7 @@ This repository links multiple other Earth System Model (ESM) emulation librarie
 
 ## Overview
 
-This workflow is broken into two primary component examples: i) CNN emulation with ESEM; and ii) GP Emulation in R. The main.py runscript couples both of these processes together by preprocessing example CESM output and feeding data into the model. 
+This workflow is broken into two primary component examples: i) CNN emulation with ESEM; and ii) GP Emulation in R. The **main.py** runscript couples both of these processes together by preprocessing example CESM output and feeding data into the model. 
 
 While this workflow is set up for a specific exampl at f19 resolution with pre-industrial cam/clm and prescribed ice/ocn inputs to CESM, the CNN and GP are model agnostic and can work with other ESMs.
 
@@ -51,7 +51,7 @@ The GP code is written in R and you'll need to install the following libraries i
 - randtoolbox
 - sensitivity
 
-It is important to note that you must run the above main.py script first to generate the required inputs to the GP model. After installing these packages you can run the example in RStudio for the common.R script (or using the command line).
+It is important to note that you must run the above main.py script first to generate the required inputs to the GP model. After installing these packages you can run the example in RStudio for the **gp/common.R** script (or using the command line).
 
 Outputs are saved from both scripts in the output or images folder, depending on what is being generated.
 
