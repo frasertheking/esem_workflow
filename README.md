@@ -43,7 +43,7 @@ Which should load the example f19 data, perform the preprocessing and generate o
 
 ## GP Regression Setup
 
-The GP code is written in R and you'll need to install the following libraries in R Studio for the code to run:
+The GP code is written in R (based on work in https://github.com/UWFletcherGroup/FKB2018) and you'll need to install the following libraries in R Studio for the code to run:
 
 - DiceKriging
 - RNetCDF
