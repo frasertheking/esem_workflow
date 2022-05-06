@@ -28,6 +28,10 @@ conda env create -f esem_workflow.yml
 conda activate esem_workflow
 ```
 
+## Inputs and running ESEM
+
+Required Inputs: A set of N runs of M output fields from an ESM and a corresponding set of N perturbed parameter values used for each run. 
+
 You can then run the test example using:
 
 ```sh
