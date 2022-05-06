@@ -1,0 +1,16 @@
+name: esem-dev
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Mandatory dependencies
+  - iris
+  - xarray
+  - tqdm
+
+  # build dependencies
+  - setuptools
+
+  # documentation
+  - sphinx
