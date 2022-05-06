@@ -3,7 +3,7 @@
 
 This repository links multiple other Earth System Model (ESM) emulation libraries and scripts in both Python and R. Here, we provide an example script which covers data preprocessing, running the models and examining outputs. The primary emulators linked to in this work are: 
 
-- Duncan Watson-Parris' ESEM (https://github.com/duncanwp/ESEm; https://gmd.copernicus.org/articles/14/7659/2021/gmd-14-7659-2021.html)
+- Duncan Watson-Parris' ESEM (https://github.com/duncanwp/ESEm; https://tinyurl.com/764wjseb)
 - Christopher G. Fletcher's Gaussian Process emulator (https://acp.copernicus.org/articles/18/17529/2018/)
 
 
