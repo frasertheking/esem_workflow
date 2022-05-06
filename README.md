@@ -6,6 +6,9 @@ This repository links multiple other Earth System Model (ESM) emulation librarie
 - Duncan Watson-Parris' ESEM (https://github.com/duncanwp/ESEm; https://gmd.copernicus.org/articles/14/7659/2021/gmd-14-7659-2021.html)
 - Christopher G. Fletcher's Gaussian Process emulator (https://acp.copernicus.org/articles/18/17529/2018/)
 
+![Output](https://github.com/frasertheking/esem_workflow/blob/main/images/example.png)
+
+
 ## Overview
 
 This workflow is broken into two primary component examples: i) CNN emulation with ESEM; and ii) GP Emulation in R. The main.py runscript couples both of these processes together by preprocessing example CESM output and feeding data into the model. 
