@@ -30,7 +30,7 @@ conda activate esem_workflow
 
 ## Inputs and running ESEM
 
-Required Inputs: A set of N runs of M output fields from an ESM and a corresponding set of N perturbed parameter values used for each run. 
+Required Inputs: A set of N runs of M output fields from an ESM and a corresponding set of N perturbed parameter values used for each run. Additional details are provided in the README of the esem folder.
 
 You can then run the test example using:
 
